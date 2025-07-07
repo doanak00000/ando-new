@@ -1,0 +1,52 @@
+{
+    "name": "An Đô Printing Supplies - Vật Tư In Ấn TP.HCM",
+    "short_name": "An Đô",
+    "description": "Nhà cung cấp vật tư in ấn hàng đầu TP.HCM - Mực in, bản kẽm, hóa chất chất lượng cao",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#8B4513",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "vi",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "img/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "img/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "img/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["business", "productivity", "shopping"],
+    "screenshots": [
+        {
+            "src": "img/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "img/screenshot-mobile.png",
+            "sizes": "375x667",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]
+}
