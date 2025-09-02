@@ -169,7 +169,108 @@ const translations = {
 
         // Testimonial Page
         testimonialPageTitle: "Testimonials",
-        testimonialPageSubtitle: "What Our Clients Say"
+        testimonialPageSubtitle: "What Our Clients Say",
+
+        // Pricing Section Translations
+        printingSupplies: "Printing Supplies",
+        highQuality: "High Quality",
+        zincPlates: "Zinc Plates",
+        printingInks: "Printing Inks",
+        otherMaterials: "Other Materials",
+        tableNo: "No.",
+        tableProductName: "Product Name",
+        tableUnit: "Unit",
+        tablePriceVND: "Price (VND)",
+        tableProductCode: "Product Code",
+        tablePackaging: "Packaging",
+        tablePrice: "Price",
+
+        // Product names for translation
+        // Zinc Plates Products
+        zincProduct1: "CTP Plate size 1030*800mm",
+        zincProduct2: "CTP Plate size 830*645mm",
+        zincProduct3: "CTP Plate size 730*600mm",
+        zincProduct4: "CTP Plate size 670*560mm",
+        zincProduct5: "CTP Plate size 510*400*0.15mm",
+        zincProduct6: "CTP Plate size 510*400*0.3mm",
+
+        // Printing Inks Products
+        inkProduct1: "RI 33579 PRINTSET EXPRESS YELLOW Ink",
+        inkProduct2: "RI 33580 PRINTSET EXPRESS MAGENTA Ink",
+        inkProduct3: "RI 33581 PRINTSET EXPRESS CYAN Ink",
+        inkProduct4: "RI 33582 PRINTSET EXPRESS BLACK Ink",
+        inkProduct5: "RI 34029 PRINTSET VFM YELLOW Ink",
+        inkProduct6: "RI 34030 PRINTSET VFM MAGENTA Ink",
+        inkProduct7: "RI 34031 PRINTSET VFM CYAN Ink",
+        inkProduct8: "RI 34032 PRINTSET VFM BLACK Ink",
+        inkProduct9: "Novavit 1 F 700 BA9782 BIO YELLOW",
+        inkProduct10: "Novavit 2 F 700 BA9782 BIO MAGENTA",
+        inkProduct11: "Novavit 4 F 700 BA9782 BIO CYAN",
+        inkProduct12: "Novavit 701 BA9782 BIO BLACK",
+        inkProduct13: "Novavit 1 F 950 FAUNA YELLOW",
+        inkProduct14: "Novavit 2 F 950 FAUNA MAGENTA",
+        inkProduct15: "Novavit 4 F 950 FAUNA CYAN",
+        inkProduct16: "Novavit 950 FAUNA BLACK",
+        inkProduct17: "GLOSS OPM 110 Transparent Ink",
+        inkProduct18: "MP 4100N MAXCURE PLAST PROCESS YELLOW Ink",
+        inkProduct19: "MP 4300N MAXCURE PLAST PROCESS MAGENTA Ink",
+        inkProduct20: "MP 4500N MAXCURE PLAST PROCESS CYAN Ink",
+        inkProduct21: "MP 4700N MAXCURE PLAST PROCESS BLACK Ink",
+        inkProduct22: "MAXCURE UV OFFSET TRANSPERENT WHITE Ink",
+        inkProduct23: "MP 4800N MAXCURE PLAST OPAQUE WHITE Ink",
+        inkProduct24: "RI 34049 PRINTSET SL YELLOW Ink",
+        inkProduct25: "RI 34050 PRINTSET SL MAGENTA Ink",
+        inkProduct26: "RI 34051 PRINTSET SL CYAN Ink",
+        inkProduct27: "RI 34052 PRINTSET SL BLACK Ink",
+        inkProduct28: "RI 34053 PRINTSET SL SC OPAQUE WHITE Ink",
+        inkProduct29: "RI 34054 PRINTSET SL SC TRANSPERANT Ink",
+
+        // Other Materials Products
+        otherProduct1: "MAX GREEN Rubber 1035X900, 5mm bead",
+        otherProduct2: "MAX GREEN Rubber 1035X920, 4.5mm bead",
+        otherProduct3: "MAX GREEN Rubber 1035X920, 5mm bead",
+        otherProduct4: "Hydro 60 Regular Ink Wash",
+        otherProduct5: "Combi HF Ink Wash",
+        otherProduct6: "Alpha Plate Cleaner",
+        otherProduct7: "HUBER CTP FINISHER GUM Plate Surface Protectant",
+        otherProduct8: "ERASER CTP Ink Remover 100ml",
+        otherProduct9: "Aqua SF Fountain Solution",
+        otherProduct10: "AL1955 Water-based Roller Coating",
+        otherProduct11: "Flint Spray Powder",
+
+        // Unit translations
+        unitSheet: "Sheet",
+        unitCan: "Can",
+        unitLitre: "Litre",
+        unitBottle: "Bottle",
+        unitKg: "kg",
+
+        // Packaging translations for Ink table
+        packagingInk1: "2.5kg/box Carton 10kg",
+        packagingInk2: "2.0kg/box Carton 16kg",
+        packagingInk3: "2.5kg/box Carton 20kg",
+        packagingInk4: "1kg/box Carton 12kg",
+        packagingInk5: "1kg/box Carton 10kg",
+        packagingInk6: "2kg/box Carton 8kg",
+        packagingInk7: "1.5kg/box Carton 15kg",
+        packagingInk8: "1kg/box Carton 10kg",
+
+        // Packaging translations for Other table
+        packagingOther1: "Can 20L",
+        packagingOther2: "Bottle 1L",
+        packagingOther3: "Carton 5kg",
+        packagingOther4: "Bottle 100ml",
+        packagingOther5: "Carton 25L",
+        packagingOther6: "Carton 20kg",
+        packagingOther7: "Bag 2.5kg/carton 10kg",
+
+        // Table headers and categories
+        zincTableHeader: "VEGETABLE OIL BASED INK VND/KG",
+        mineralOilFreeHeader: "MINERAL OIL FREE INK, COMPLIANT WITH 2025 STANDARD BELOW 0.1% MINERAL OIL",
+        nonTransparentHeader: "NON-TRANSPARENT INK",
+        uvInkHeader: "UV INK",
+        uvLedHeader: "UV LED INK",
+        otherTableHeader: "OTHER PRINTING MATERIALS AND SUPPLIES"
     },
     
     vi: {
@@ -341,7 +442,108 @@ const translations = {
 
         // Testimonial Page
         testimonialPageTitle: "Đánh Giá Khách Hàng",
-        testimonialPageSubtitle: "Khách Hàng Nói Gì Về Chúng Tôi"
+        testimonialPageSubtitle: "Khách Hàng Nói Gì Về Chúng Tôi",
+
+        // Pricing Section Translations (Vietnamese - same as text)
+        printingSupplies: "Vật Tư In Ấn",
+        highQuality: "Chất Lượng Cao",
+        zincPlates: "Kẽm",
+        printingInks: "Mực In",
+        otherMaterials: "Khác",
+        tableNo: "STT",
+        tableProductName: "Tên Vật Tư",
+        tableUnit: "Đơn Vị Tính",
+        tablePriceVND: "Đơn Giá (VNĐ)",
+        tableProductCode: "Mã hàng",
+        tablePackaging: "Quy cách đóng gói",
+        tablePrice: "Đơn Giá",
+
+        // Product names for translation (Vietnamese - same as text)
+        // Zinc Plates Products
+        zincProduct1: "Bản in CTP khổ 1030*800mm",
+        zincProduct2: "Bản in CTP khổ 830*645mm",
+        zincProduct3: "Bản in CTP khổ 730*600mm",
+        zincProduct4: "Bản in CTP khổ 670*560mm",
+        zincProduct5: "Bản in CTP khổ 510*400*0.15mm",
+        zincProduct6: "Bản in CTP khổ 510*400*0.3mm",
+
+        // Printing Inks Products
+        inkProduct1: "Mực in RI 33579 PRINTSET EXPRESS YELLOW",
+        inkProduct2: "Mực in RI 33580 PRINTSET EXPRESS MAGENTA",
+        inkProduct3: "Mực in RI 33581 PRINTSET EXPRESS CYAN",
+        inkProduct4: "Mực in RI 33582 PRINTSET EXPRESS BLACK",
+        inkProduct5: "Mực in RI 34029 PRINTSET VFM YELLOW",
+        inkProduct6: "Mực in RI 34030 PRINTSET VFM MAGENTA",
+        inkProduct7: "Mực in RI 34031 PRINTSET VFM CYAN",
+        inkProduct8: "Mực in RI 34032 PRINTSET VFM BLACK",
+        inkProduct9: "Novavit 1 F 700 BA9782 BIO YELLOW",
+        inkProduct10: "Novavit 2 F 700 BA9782 BIO MAGENTA",
+        inkProduct11: "Novavit 4 F 700 BA9782 BIO CYAN",
+        inkProduct12: "Novavit 701 BA9782 BIO BLACK",
+        inkProduct13: "Novavit 1 F 950 FAUNA YELLOW",
+        inkProduct14: "Novavit 2 F 950 FAUNA MAGENTA",
+        inkProduct15: "Novavit 4 F 950 FAUNA CYAN",
+        inkProduct16: "Novavit 950 FAUNA BLACK",
+        inkProduct17: "Mực in trong GLOSS OPM 110",
+        inkProduct18: "Mực in MP 4100N MAXCURE PLAST PROCESS YELLOW",
+        inkProduct19: "Mực in MP 4300N MAXCURE PLAST PROCESS MAGENTA",
+        inkProduct20: "Mực in MP 4500N MAXCURE PLAST PROCESS CYAN",
+        inkProduct21: "Mực in MP 4700N MAXCURE PLAST PROCESS BLACK",
+        inkProduct22: "Mực in MAXCURE UV OFFSET TRANSPERENT WHITE",
+        inkProduct23: "Mực in MP 4800N MAXCURE PLAST OPAQUE WHITE",
+        inkProduct24: "Mực in RI 34049 PRINTSET SL YELLOW",
+        inkProduct25: "Mực in RI 34050 PRINTSET SL MAGENTA",
+        inkProduct26: "Mực in RI 34051 PRINTSET SL CYAN",
+        inkProduct27: "Mực in RI 34052 PRINTSET SL BLACK",
+        inkProduct28: "Mực in RI 34053 PRINTSET SL SC OPAQUE WHITE",
+        inkProduct29: "Mực in RI 34054 PRINTSET SL SC TRANSPERANT",
+
+        // Other Materials Products
+        otherProduct1: "Cao su MAX GREEN 1035X900, nẹp 5 ly",
+        otherProduct2: "Cao su MAX GREEN 1035X920, nẹp 4.5 ly",
+        otherProduct3: "Cao su MAX GREEN 1035X920, nẹp 5 ly",
+        otherProduct4: "Nước rửa mực thường Hydro 60",
+        otherProduct5: "Nước rửa Combi HF",
+        otherProduct6: "Sữa lau bản Alpha plate cleaner",
+        otherProduct7: "Chế phẩm bảo vệ bề mặt bản kẽm HUBER CTP FINISHER GUM",
+        otherProduct8: "Chất tẩy mực ERASER CTP 100ml",
+        otherProduct9: "Dung dịch nước máng Aqua SF",
+        otherProduct10: "Chất phủ hệ nước, phủ roller AL1955",
+        otherProduct11: "Bột Phun Flint",
+
+        // Unit translations (Vietnamese remain same)
+        unitSheet: "Tấm",
+        unitCan: "Can",
+        unitLitre: "Lít",
+        unitBottle: "Chai",
+        unitKg: "kg",
+
+        // Packaging translations for Ink table (Vietnamese remain same)
+        packagingInk1: "2.5kg/hộp Thùng 10kg",
+        packagingInk2: "2.0kg/hộp Thùng 16kg",
+        packagingInk3: "2.5kg/hộp Thùng 20kg",
+        packagingInk4: "1kg/hộp Thùng 12kg",
+        packagingInk5: "1kg/hộp Thùng 10kg",
+        packagingInk6: "2kg/ hộp Thùng 8kg",
+        packagingInk7: "1.5kg/hộp Thùng 15kg",
+        packagingInk8: "1kg/hộp Thùng 10kg",
+
+        // Packaging translations for Other table (Vietnamese remain same)
+        packagingOther1: "Can 20L",
+        packagingOther2: "Chai 1L",
+        packagingOther3: "Thùng 5kg",
+        packagingOther4: "Chai 100ml",
+        packagingOther5: "Thùng 25L",
+        packagingOther6: "Thùng 20kg",
+        packagingOther7: "Túi 2.5kg/thùng 10kg",
+
+        // Table headers and categories
+        zincTableHeader: "MỰC IN GỐC DẦU THỰC VẬT VND/KG",
+        mineralOilFreeHeader: "MỰC IN KHÔNG DẦU KHOÁNG, PHÙ HỢP THEO TIÊU CHUẨN 2025 DẦU KHOÁNG DƯỚI 0.1%",
+        nonTransparentHeader: "MỰC IN KHÔNG TRONG SUỐT",
+        uvInkHeader: "MỰC IN UV",
+        uvLedHeader: "MỰC IN UV LED",
+        otherTableHeader: "MỰC IN GỐC DẦU THỀU VẬT VND/KG"
     }
 };
 

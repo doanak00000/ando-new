@@ -126,6 +126,32 @@
             .navbar-brand { padding-left: 1rem !important; }
             #languageToggle { font-size: 0.8rem; padding: 0.3rem 0.8rem !important; }
         }
+
+        @media (max-width: 576px) {
+            .d-flex.align-items-center {
+                flex-direction: row;
+                align-items: center !important;
+                flex-wrap: nowrap;
+            }
+
+            .navbar-brand h1 {
+                font-size: 1.5rem;
+                margin-right: 0.5rem;
+            }
+
+            #languageToggle {
+                margin-left: 0.5rem !important;
+                margin-top: 0;
+                padding: 0.3rem 0.6rem !important;
+                font-size: 0.7rem;
+                white-space: nowrap;
+            }
+
+            .navbar-brand img {
+                height: 35px;
+                margin-right: 0.5rem;
+            }
+        }
     </style>
 </head>
 
@@ -246,6 +272,172 @@
         </div>
     </div>
     <!-- Menu End -->
+
+    <!-- Vật Tư In Ấn Chất Lượng Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            
+            <!-- Accordion for Pricing Categories -->
+            <div class="accordion" id="pricingAccordion">
+                <!-- Kẽm -->
+                <div class="card rounded-lg">
+                    <div class="card-header" id="headingZinc">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseZinc" aria-expanded="true" aria-controls="collapseZinc">
+                                <i class="fa fa-chevron-down mr-2"></i> <span data-translate="zincPlates">Kẽm</span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseZinc" class="collapse show" aria-labelledby="headingZinc" data-parent="#pricingAccordion">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped rounded-lg">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th data-translate="tableNo">STT</th>
+                                            <th data-translate="tableProductName">Tên Vật Tư</th>
+                                            <th data-translate="tableUnit">Đơn Vị Tính</th>
+                                            <th data-translate="tablePriceVND">Đơn Giá (VNĐ)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>1</td><td data-translate="zincProduct1">Bản in CTP khổ 1030*800mm</td><td data-translate="unitSheet">Tấm</td><td>95.000</td></tr>
+                                        <tr><td>2</td><td data-translate="zincProduct2">Bản in CTP khổ 830*645mm</td><td data-translate="unitSheet">Tấm</td><td>70.000</td></tr>
+                                        <tr><td>3</td><td data-translate="zincProduct3">Bản in CTP khổ 730*600mm</td><td data-translate="unitSheet">Tấm</td><td>60.000</td></tr>
+                                        <tr><td>4</td><td data-translate="zincProduct4">Bản in CTP khổ 670*560mm</td><td data-translate="unitSheet">Tấm</td><td>50.000</td></tr>
+                                        <tr><td>5</td><td data-translate="zincProduct5">Bản in CTP khổ 510*400*0.15mm</td><td data-translate="unitSheet">Tấm</td><td>35.000</td></tr>
+                                        <tr><td>6</td><td data-translate="zincProduct6">Bản in CTP khổ 510*400*0.3mm</td><td data-translate="unitSheet">Tấm</td><td>38.000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mực In -->
+                <div class="card rounded-lg">
+                    <div class="card-header" id="headingInk">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseInk" aria-expanded="false" aria-controls="collapseInk">
+                                <i class="fa fa-chevron-down mr-2"></i> <span data-translate="printingInks">Mực In</span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseInk" class="collapse" aria-labelledby="headingInk" data-parent="#pricingAccordion">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped rounded-lg">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th data-translate="tableNo">Stt</th>
+                                            <th data-translate="tableProductCode">Mã hàng</th>
+                                            <th data-translate="tableProductName">Tên hàng</th>
+                                            <th data-translate="tablePackaging">Quy cách đóng gói</th>
+                                            <th data-translate="tableUnit">ĐVT</th>
+                                            <th data-translate="tablePrice">Đơn Giá</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Mực in gốc dầu thực vật -->
+                                        <tr class="table-info"><td colspan="6"><strong data-translate="zincTableHeader">MỰC IN GỐC DẦU THỰC VẬT VND/KG</strong></td></tr>
+                                        <tr><td>1</td><td>RI 33579/2.5KG</td><td data-translate="inkProduct1">Mực in RI 33579 PRINTSET EXPRESS YELLOW</td><td data-translate="packagingInk1">2.5kg/hộp Thùng 10kg</td><td data-translate="unitKg">kg</td><td>125,000</td></tr>
+                                        <tr><td>2</td><td>RI 33580/2.5KG</td><td data-translate="inkProduct2">Mực in RI 33580 PRINTSET EXPRESS MAGENTA</td><td data-translate="packagingInk1">2.5kg/hộp Thùng 10kg</td><td data-translate="unitKg">kg</td><td>125,000</td></tr>
+                                        <tr><td>3</td><td>RI 33581/2.5KG</td><td data-translate="inkProduct3">Mực in RI 33581 PRINTSET EXPRESS CYAN</td><td data-translate="packagingInk1">2.5kg/hộp Thùng 10kg</td><td data-translate="unitKg">kg</td><td>125,000</td></tr>
+                                        <tr><td>4</td><td>RI 33582/2.5KG</td><td data-translate="inkProduct4">Mực in RI 33582 PRINTSET EXPRESS BLACK</td><td data-translate="packagingInk1">2.5kg/hộp Thùng 10kg</td><td data-translate="unitKg">kg</td><td>115,000</td></tr>
+                                        <tr><td>5</td><td>RI 34029/2KG</td><td data-translate="inkProduct5">Mực in RI 34029 PRINTSET VFM YELLOW</td><td data-translate="packagingInk2">2.0kg/hộp Thùng 16kg</td><td data-translate="unitKg">kg</td><td>115,000</td></tr>
+                                        <tr><td>6</td><td>RI 34030/2KG</td><td data-translate="inkProduct6">Mực in RI 34030 PRINTSET VFM MAGENTA</td><td data-translate="packagingInk2">2.0kg/hộp Thùng 16kg</td><td data-translate="unitKg">kg</td><td>115,000</td></tr>
+                                        <tr><极速翻译>
+                                        <tr><td>7</td><td>RI 34031/2KG</td><td data-translate="inkProduct7">Mực in RI 34031 PRINTSET VFM CYAN</td><td data-translate="packagingInk2">2.0kg/hộp Thùng 16kg</td><td data-translate="unitKg">kg</td><td>115,000</td></tr>
+                                        <tr><td>8</td><td>RI 34032/极速翻译>
+                                        <tr><td>8</td><td>RI 34032/2KG</td><td data-translate="inkProduct8">Mực in RI 34032 PRINTSET VFM BLACK</td><td data-translate="packagingInk2">2.0kg/hộp Thùng 16kg</td><td data-translate="unitKg">kg</td><td>100,000</td></tr>
+                                        
+                                        <!-- Mực in không dầu khoáng -->
+                                        <tr class="table-info"><td colspan="6"><strong data-translate="mineralOilFreeHeader">MỰC IN KHÔNG DẦU KHOÁNG, PHÙ HỢP THEO TIêu chuẩn 2025 DẦU KHOÁNG DƯỚI 0.1%</strong></td></tr>
+                                        <tr><td>9</td><td>F700 YE/2.5KG</td><td data-translate="inkProduct9">Novavit 1 F 700 BA9782 BIO YELLOW</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>135,000</td></tr>
+                                        <tr><td>10</td><td>F700 MAG/2.5KG</td><td data-translate="inkProduct10">Novavit 2 F 700 BA9782 BIO MAGENTA</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>135,000</td></tr>
+                                        <tr><td>11</td><td>F700 CYAN/2.5KG</td><td data-translate="inkProduct11">Novavit 4 F 700 BA9782 BIO CYAN</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>135,000</td></tr>
+                                        <tr><td>12</td><td>701 BLACK/2.5KG</td><td data-translate="inkProduct12">Novavit 701 BA9782 BIO BLACK</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>135,000</td></tr>
+                                        <tr><td>13</td><td>F950 YE0/2.5kg</td><td data-translate="inkProduct13">Novavit 1 F 950 FAUNA YELLOW</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>150,000</td></tr>
+                                        <tr><td>14</td><td>F950 MAG/2.5kg</td><td data-translate="inkProduct14">Novavit 2 F 950 FAUNA MAGENTA</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>150,000</td></tr>
+                                        <tr><td>15</td><td>F950 CYAN/2.5kg</td><td data-translate="inkProduct15">Novavit 4 F 950 FAUNA CYAN</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>150,000</td></tr>
+                                        <tr><td>16</td><td>950 BLACK/2.5KG</td><td data-translate="inkProduct16">Novavit 950 FAUNA BLACK</td><td>2.5kg/hộp Thùng 20kg</td><td>kg</td><td>140,000</td></tr>
+                                        
+                                        <!-- Mực in không trong suốt -->
+                                        <tr class="table-info"><td colspan="6"><strong data-translate="nonTransparentHeader">MỰC IN KHÔNG TRONG SUỐT</strong></td></tr>
+                                        <tr><td>17</td><td>GLOSS OPM 110</td><td data-translate="inkProduct极速翻译>
+                                        <tr><td>17</td><td>GLOSS OPM 110</td><td data-translate="inkProduct17">Mực in trong GLOSS OPM 110</td><td data-translate="packagingInk4">1kg/hộp Thùng 12kg</td><td data-translate="unitKg">kg</td><td极速翻译>
+                                        <tr><td>17</td><td>GLOSS OPM 110</td><td data-translate="inkProduct17">Mực in trong GLOSS OPM 110</td><td data-translate="packagingInk4">1kg/hộp Thùng 12kg</td><td data-translate="unitKg">kg</td><td>155,000</td></tr>
+                                        
+                                        <!-- Mực in UV -->
+                                        <tr class="table-info"><td colspan="6"><strong data-translate="uvInkHeader">MỰC IN UV</strong></td></tr>
+                                        <tr><td>18</td><td>MP 4100N</td><td data-translate="inkProduct18">Mực in MP 4100N MAXCURE PLAST PROCESS YELLOW</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        <tr><td>19</td><td>MP 4300N</td><td data-translate="inkProduct19">Mực in MP 4300N MAXCURE PLAST PROCESS MAGENTA</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        <tr><td>20</td><td>MP 4500N</td><td data-translate="inkProduct20">Mực in MP 4500N MAXCURE PLAST PROCESS CYAN</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        <tr><td>21</td><td>MP 4700N</td><td data-translate="inkProduct21">Mực in MP 4700N MAXCURE PLAST PROCESS BLACK</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        <tr><td>22</td><td></td><td data-translate="inkProduct22">Mực in MAXCURE UV OFFSET TRANSPERENT WHITE</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        <tr><td>23</td><td>MP 4800N</td><td data-translate="inkProduct23">Mực in MP 4800N MAXCURE PLAST OPAQUE WHITE</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>385,000</td></tr>
+                                        
+                                        <!-- Mực in UV LED -->
+                                        <tr class="table-info"><td colspan="6"><strong data-translate="uvLedHeader">MỰC IN UV LED</strong></td></tr>
+                                        <tr><td>24</td><td>RI 34049/2KG</td><td data-translate="inkProduct24">Mực in RI 34049 PRINTSET SL YELLOW</td><td>2kg/ hộp Thùng 8kg</td><td>kg</td><td>580,000</td></tr>
+                                        <tr><td>25</td><td>RI 34050/2KG</td><td data-translate="inkProduct25">Mực in RI 34050 PRINTSET SL MAGENTA</td><td>2kg/ hộp Thùng 8kg</td><td>kg</td><td>580,000</td></tr>
+                                        <tr><td>26</td><td>RI 34051/2KG</td><td data-translate="inkProduct26">Mực in RI 34051 PRINTSET SL CYAN</td><td>2kg/ hộp Thùng 8kg</td><td>kg</td><td>580,000</td></tr>
+                                        <tr><td>27</td><td>RI 34052/2KG</td><td data-translate="inkProduct27">Mực in RI 34052 PRINTSET SL BLACK</td><td>2kg/ hộp Thùng 8kg</td><td>kg</td><td>580,000</td></tr>
+                                        <tr><td>28</td><td>RI 34053/1.5KG</td><td data-translate="inkProduct28">Mực in RI 34053 PRINTSET SL SC OPAQUE WHITE</td><td>1.5kg/hộp Thùng 15kg</td><td>kg</td><td>580,000</td></tr>
+                                        <tr><td>29</td><td>RI 34054 /1KG</td><td data-translate="inkProduct29">Mực in RI 34054 PRINTSET SL SC TRANSPERANT</td><td>1kg/hộp Thùng 10kg</td><td>kg</td><td>580,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Khác -->
+                <div class="card rounded-lg">
+                    <div class="card-header" id="headingOther">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOther" aria-expanded="false" aria-controls="collapseOther">
+                                <i class="fa fa-chevron-down mr-2"></i> <span data-translate="otherMaterials">Khác</span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOther" class="collapse" aria-labelledby="headingOther" data-parent="#pricingAccordion">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped rounded-lg">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th data-translate="tableNo">Stt</th>
+                                            <th data-translate="tableProductCode">Mã hàng</th>
+                                            <th data-translate="tableProductName">Tên hàng</th>
+                                            <th data-translate="tablePackaging">Quy cách đóng gói</th>
+                                            <th data-translate="tableUnit">ĐVT</th>
+                                            <th data-translate="tablePrice">Đơn Giá</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Correct data for Other Materials -->
+                                        <tr><td>1</td><td>CS MG 1035X900-5</td><td data-translate="otherProduct1">Cao su MAX GREEN 1035X900, nẹp 5 ly</td><td></td><td>Tấm</td><td>1,580,000</td></tr>
+                                        <tr><td>2</td><td>CS MG 1035X920-4.5</td><td data-translate="otherProduct2">Cao su MAX GREEN 1035X920, nẹp 4.5 ly</td><td></td><td>Tấm</td><td>1,615,000</td></tr>
+                                        <tr><td>3</td><td>CS MG 1035X920-5</td><td data-translate="otherProduct3">Cao su MAX GREEN 1035X920, nẹp 5 ly</td><td></td><td>Tấm</td><td>1,615,000</td></tr>
+                                        <tr><td>4</td><td>FG/KV16-11JZ-XSEA/20L</td><td data-translate="otherProduct4">Nước rửa mực thường Hydro 60</td><td>Can 20L</td><td>Can</td><td>1,350,000</td></tr>
+                                        <tr><td>5</td><td>FG/KV16-01LZ-XSEA/20L</td><td data-translate="otherProduct5">Nước rửa Combi HF</td><td>Can 20L</td><td>Can</td><td>2,650,000</td></tr>
+                                        <tr><td>6</td><td>FG/KU46-02CZ-XSD6/1L</td><td data-translate="otherProduct6">Sữa lau bản Alpha plate cleaner</td><td>Chai 1L</td><td>Lít</td><td>115,000</td></tr>
+                                        <tr><td>7</td><td>FINISHER GUM.</td><td data-translate="otherProduct7">Chế phẩm bảo vệ bề mặt bản kẽm HUBER CTP FINISHER GUM</td><td>Thùng 5kg</td><td>kg</td><td>45,000</td></tr>
+                                        <tr><td>8</td><td>CHEM HPC-0442/0.1FB</td><td data-translate="otherProduct8">Chất tẩy mực ERASER CTP 100ml</td><td>Chai 100ml</td><td>Chai</td><td>65,000</td></tr>
+                                        <tr><td>9</td><td>FG/KT26132ZXS/25L</td><td data-translate="otherProduct9">Dung dịch nước máng Aqua SF</td><td>Thùng 25L</td><td>Lít</td><td>70,000</td></tr>
+                                        <tr><td>10</td><td>Coat/AL1955/20kg</td><td data-translate="otherProduct10">Chất phủ hệ nước, phủ roller AL1955</td><td>Thùng 20kg</td><td>Kg</td><td>65,000</td></tr>
+                                        <tr><td>11</td><td>PD/Coaterfine/2.5kg</td><td data-translate="otherProduct11">Bột Phun Flint</td><td>Túi 2.5kg/thùng 10kg</td><td>Kg</td><td>115,000</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vật Tư In Ấn Chất Lượng End -->
 
 
     <!-- Footer Start -->

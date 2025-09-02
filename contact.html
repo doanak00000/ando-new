@@ -118,8 +118,40 @@
         }
 
         @media (max-width: 991px) {
-            .navbar-brand { padding-left: 1rem !important; }
-            #languageToggle { font-size: 0.8rem; padding: 0.3rem 0.8rem !important; }
+            .navbar-brand {
+                padding-left: 1rem !important;
+            }
+
+            #languageToggle {
+                font-size: 0.8rem;
+                padding: 0.3rem 0.8rem !important;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .d-flex.align-items-center {
+                flex-direction: row;
+                align-items: center !important;
+                flex-wrap: nowrap;
+            }
+
+            .navbar-brand h1 {
+                font-size: 1.5rem;
+                margin-right: 0.5rem;
+            }
+
+            #languageToggle {
+                margin-left: 0.5rem !important;
+                margin-top: 0;
+                padding: 0.3rem 0.6rem !important;
+                font-size: 0.7rem;
+                white-space: nowrap;
+            }
+
+            .navbar-brand img {
+                height: 35px;
+                margin-right: 0.5rem;
+            }
         }
     </style>
 </head>
