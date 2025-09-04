@@ -310,7 +310,7 @@ const translations = {
         servicesHeading: "Giải Pháp Vật Tư In Ấn Toàn Diện",
         fastestDelivery: "Giao Hàng Toàn Quốc",
         freshBeans: "Mực In Chất Lượng Cao",
-        bestQuality: "Sản Xuất Bản Kẽm",
+        bestQuality: "Gia Công Bản Kẽm",
         onlineBooking: "Tư Vấn Kỹ Thuật",
         serviceDescription: "Chúng tôi cung cấp giải pháp vật tư in ấn toàn diện với chất lượng chuyên nghiệp và dịch vụ đáng tin cậy để đáp ứng mọi nhu cầu ngành in ấn của bạn",
 
@@ -447,7 +447,7 @@ const translations = {
         // Pricing Section Translations (Vietnamese - same as text)
         printingSupplies: "Vật Tư In Ấn",
         highQuality: "Chất Lượng Cao",
-        zincPlates: "Kẽm",
+        zincPlates: "Gia công bản kẽm",
         printingInks: "Mực In",
         otherMaterials: "Khác",
         tableNo: "STT",
