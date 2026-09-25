@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="utf-8">
     <title>An Đô - Đánh Giá Khách Hàng | Testimonials - Printing Supplies Company</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="canonical" href="https://vattuinando.vn/testimonial.html">
+    <meta name="robots" content="noindex, follow">
+    <meta property="og:title" content="An Đô - Đánh Giá Khách Hàng | Testimonials - Printing Supplies Company">
+    <meta property="og:description" content="Đánh giá và phản hồi từ khách hàng về chất lượng sản phẩm và dịch vụ của An Đô">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vattuinando.vn/testimonial.html">
+    <meta property="og:image" content="https://vattuinando.vn/img/carousel-1.jpg">
+    <meta property="og:site_name" content="Vật Tư In An Đô">
+    <meta property="og:locale" content="vi_VN">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1e5aa8">
+    <link rel="alternate" type="application/rss+xml" title="Kiến thức ngành in - An Đô" href="blog/feed.xml">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://vattuinando.vn/"}, {"@type": "ListItem", "position": 2, "name": "Đánh giá khách hàng", "item": "https://vattuinando.vn/testimonial.html"}]}</script>
     <meta content="đánh giá khách hàng, phản hồi khách hàng, testimonials printing company, customer reviews" name="keywords">
     <meta content="Đánh giá và phản hồi từ khách hàng về chất lượng sản phẩm và dịch vụ của An Đô" name="description">
 
@@ -43,7 +59,7 @@
             box-shadow: none;
         }
 
-        .navbar-brand h1 {
+        .navbar-brand .brand-name {
             color: var(--primary-color) !important;
         }
 
@@ -132,7 +148,7 @@
                 flex-wrap: nowrap;
             }
 
-            .navbar-brand h1 {
+            .navbar-brand .brand-name {
                 font-size: 1.5rem;
                 margin-right: 0.5rem;
             }
@@ -160,7 +176,7 @@
             <div class="d-flex align-items-center">
                 <a href="index.html" class="navbar-brand px-lg-4 m-0 d-flex align-items-center">
                     <img src="img/logo.png" alt="An Đô Logo" class="me-3" style="height: 50px;">
-                    <h1 class="m-0 display-4 text-uppercase" style="color: var(--primary-color);">An Đô</h1>
+                    <span class="brand-name m-0 display-4 text-uppercase" style="color: var(--primary-color);">An Đô</span>
                 </a>
                 <!-- Language Toggle Button beside An Đô title -->
                 <button type="button" class="btn btn-outline-light ml-3" id="languageToggle" style="padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.9rem;">
@@ -173,18 +189,19 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link" data-translate="home">Home</a>
-                    <a href="about.html" class="nav-item nav-link" data-translate="about">About</a>
-                    <a href="service.html" class="nav-item nav-link" data-translate="service">Services</a>
-                    <a href="menu.html" class="nav-item nav-link" data-translate="menu">Products</a>
+                    <a href="index.html" class="nav-item nav-link" data-translate="home">Trang Chủ</a>
+                    <a href="about.html" class="nav-item nav-link" data-translate="about">Giới Thiệu</a>
+                    <a href="service.html" class="nav-item nav-link" data-translate="service">Dịch Vụ</a>
+                    <a href="menu.html" class="nav-item nav-link" data-translate="menu">Sản Phẩm</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown" data-translate="pages">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown" data-translate="pages">Trang</a>
                         <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.html" class="dropdown-item" data-translate="reservation">Quote Request</a>
-                            <a href="testimonial.html" class="dropdown-item active" data-translate="testimonial">Testimonial</a>
+                            <a href="reservation.html" class="dropdown-item" data-translate="reservation">Yêu Cầu Báo Giá</a>
+                            <a href="testimonial.html" class="dropdown-item active" data-translate="testimonial">Đánh Giá</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link" data-translate="contact">Contact</a>
+                    <a href="blog/" class="nav-item nav-link" data-translate="blog">Kiến Thức</a>
+                    <a href="contact.html" class="nav-item nav-link" data-translate="contact">Liên Hệ</a>
                 </div>
             </div>
         </nav>
@@ -195,11 +212,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase" data-translate="testimonialPageTitle">Testimonials</h1>
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase" data-translate="testimonialPageTitle">Đánh Giá Khách Hàng</h1>
             <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="index.html" data-translate="home">Home</a></p>
+                <p class="m-0 text-white"><a class="text-white" href="index.html" data-translate="home">Trang Chủ</a></p>
                 <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white" data-translate="testimonial">Testimonials</p>
+                <p class="m-0 text-white" data-translate="testimonial">Đánh Giá</p>
             </div>
         </div>
     </div>
@@ -210,49 +227,49 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-translate="testimonialTitle">Testimonials</h4>
-                <h1 class="display-4" data-translate="testimonialHeading">What Our Clients Say About Us</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-translate="testimonialTitle">Đánh Giá</h4>
+                <h2 class="display-4" data-translate="testimonialHeading">Khách Hàng Nói Gì Về Chúng Tôi</h2>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        <img loading="lazy" decoding="async" alt="Khách hàng An Đô" class="img-fluid" src="img/testimonial-1.jpg">
                         <div class="ml-3">
                             <h4 data-translate="client1Name">Michael Thompson</h4>
                             <i data-translate="client1Company">CEO - Premier Graphics International</i>
                         </div>
                     </div>
-                    <p class="m-0" data-translate="testimonial1Text">An Do has been our exclusive supplier for premium offset inks for over 6 years. Their consistent quality and technical excellence have been instrumental in maintaining our reputation as a leading commercial printer. Outstanding service and reliability.</p>
+                    <p class="m-0" data-translate="testimonial1Text">An Đô đã là nhà cung cấp độc quyền mực offset cao cấp cho chúng tôi hơn 6 năm. Chất lượng nhất quán và sự xuất sắc về kỹ thuật của họ đã góp phần quan trọng trong việc duy trì danh tiếng của chúng tôi như một nhà in thương mại hàng đầu. Dịch vụ và độ tin cậy xuất sắc.</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <img loading="lazy" decoding="async" alt="Khách hàng An Đô" class="img-fluid" src="img/testimonial-2.jpg">
                         <div class="ml-3">
                             <h4 data-translate="client2Name">James Wilson</h4>
-                            <i data-translate="client2Company">Operations Director - Global Print Solutions</i>
+                            <i data-translate="client2Company">Giám đốc Vận hành - Global Print Solutions</i>
                         </div>
                     </div>
-                    <p class="m-0" data-translate="testimonial2Text">We've been sourcing our zinc plates and printing chemicals from An Do for over 4 years. Their products consistently deliver exceptional print quality and their technical support team provides world-class service. Highly recommended for premium printing operations.</p>
+                    <p class="m-0" data-translate="testimonial2Text">Chúng tôi đã mua bản kẽm và hóa chất in từ An Đô hơn 4 năm. Sản phẩm của họ luôn mang lại chất lượng in đặc biệt và đội ngũ hỗ trợ kỹ thuật cung cấp dịch vụ đẳng cấp thế giới. Rất khuyến khích cho các hoạt động in cao cấp.</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        <img loading="lazy" decoding="async" alt="Khách hàng An Đô" class="img-fluid" src="img/testimonial-3.jpg">
                         <div class="ml-3">
                             <h4 data-translate="client3Name">Robert Anderson</h4>
-                            <i data-translate="client3Company">Managing Director - Elite Packaging Corp</i>
+                            <i data-translate="client3Company">Giám đốc Điều hành - Elite Packaging Corp</i>
                         </div>
                     </div>
-                    <p class="m-0" data-translate="testimonial3Text">An Do's UV flexographic inks have revolutionized our packaging production. The superior curing speed and color vibrancy have increased our efficiency by 40%. Their expertise in food-grade packaging solutions is unmatched in the industry.</p>
+                    <p class="m-0" data-translate="testimonial3Text">Mực flexo UV của An Đô đã cách mạng hóa sản xuất bao bì của chúng tôi. Tốc độ đóng rắn vượt trội và độ rực rỡ màu sắc đã tăng hiệu quả của chúng tôi 40%. Chuyên môn của họ trong giải pháp bao bì cấp thực phẩm là không ai sánh được trong ngành.</p>
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                        <img loading="lazy" decoding="async" alt="Khách hàng An Đô" class="img-fluid" src="img/testimonial-4.jpg">
                         <div class="ml-3">
                             <h4 data-translate="client4Name">David Chen</h4>
-                            <i data-translate="client4Company">Founder - Platinum Print Technologies</i>
+                            <i data-translate="client4Company">Người sáng lập - Platinum Print Technologies</i>
                         </div>
                     </div>
-                    <p class="m-0" data-translate="testimonial4Text">An Do's rubber blankets and precision zinc plates have been game-changers for our high-end printing operations. The detail reproduction is extraordinary, and their technical consultation has helped us optimize our entire workflow. Exceptional value and partnership.</p>
+                    <p class="m-0" data-translate="testimonial4Text">Cao su in và bản kẽm chính xác của An Đô đã thay đổi cuộc chơi cho các hoạt động in cao cấp của chúng tôi. Khả năng tái tạo chi tiết là phi thường, và tư vấn kỹ thuật của họ đã giúp chúng tôi tối ưu hóa toàn bộ quy trình làm việc. Giá trị và quan hệ đối tác đặc biệt.</p>
                 </div>
             </div>
         </div>
@@ -264,14 +281,14 @@
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="getInTouch">Get In Touch</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="getInTouch">Liên Hệ Với Chúng Tôi</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>56/24 Tô Hiệu, Tân Thới Hòa, Tân Phú, Hồ Chí Minh</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>0979 324 567</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>doanak000@gmail.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i><a class="text-white" href="tel:+84979324567">0979 324 567</a></p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i><a class="text-white" href="mailto:prepress.ando@gmail.com">prepress.ando@gmail.com</a></p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="followUs">Follow Us</h4>
-                <p data-translate="followDescription">Stay updated with our latest products and industry news</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="followUs">Theo Dõi Chúng Tôi</h4>
+                <p data-translate="followDescription">Cập nhật thông tin sản phẩm mới và tin tức ngành in ấn</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -289,8 +306,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="aboutAnDo">About An Đô</h4>
-                <p data-translate="aboutAnDoDescription">Leading supplier of premium printing materials in Ho Chi Minh City. We provide high-quality inks, plates, and chemicals for professional printing operations.</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="aboutAnDo">Về An Đô</h4>
+                <p data-translate="aboutAnDoDescription">Nhà cung cấp hàng đầu các vật liệu in ấn cao cấp tại Thành phố Hồ Chí Minh. Chúng tôi cung cấp mực in, bản kẽm và hóa chất chất lượng cao cho các hoạt động in ấn chuyên nghiệp.</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>

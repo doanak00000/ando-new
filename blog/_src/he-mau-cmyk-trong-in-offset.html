@@ -1,0 +1,67 @@
+<!--
+title: Hệ màu CMYK trong in offset: mật độ màu, gia tăng tầng thứ (dot gain) và cân bằng xám
+seo_title: Hệ Màu CMYK In Offset: Mật Độ, Dot Gain, Cân Bằng Xám | An Đô
+short: Hệ màu CMYK trong in offset
+description: Hiểu hệ màu CMYK trong in offset: thứ tự in màu, mật độ màu chuẩn, gia tăng tầng thứ dot gain, cân bằng xám, tổng lượng mực TAC để in đúng màu, ít phải chỉnh máy.
+date: 2026-08-18
+updated: 2026-09-16
+category: Kỹ thuật in offset
+image: ../img/carousel-2.jpg
+keywords: hệ màu CMYK, in offset CMYK, mật độ màu in offset, dot gain, gia tăng tầng thứ, cân bằng xám, TAC tổng lượng mực, ISO 12647-2
+related: loi-in-offset-thuong-gap, quy-trinh-che-ban-ctp-va-bao-quan-ban-kem, muc-in-offset-la-gi
+-->
+<p>Khách hàng khiếu nại "in không giống màu trên máy tính" là chuyện thường ngày ở nhà in. Phần lớn nguyên nhân không nằm ở mực, mà ở việc <strong>quản lý màu CMYK</strong> chưa được chuẩn hóa từ khâu thiết kế, chế bản tới in. Bài viết này giải thích các khái niệm cốt lõi mà thợ máy, kỹ thuật chế bản và cả bộ phận bán hàng nên nắm.</p>
+
+<h2>CMYK là gì và vì sao màu in khác màu màn hình?</h2>
+<p>Màn hình hiển thị màu bằng ánh sáng cộng (RGB), còn in offset tạo màu bằng mực trừ (CMYK): Cyan (xanh lơ), Magenta (đỏ cánh sen), Yellow (vàng) và Key/Black (đen). Không gian màu CMYK nhỏ hơn RGB, nên một số màu tươi trên màn hình như xanh lá neon, cam rực, xanh dương điện <strong>không thể in lại bằng 4 màu</strong>. Với những màu này cần dùng mực pha (Pantone) hoặc chấp nhận màu gần đúng.</p>
+
+<h2>Thứ tự in màu phổ biến</h2>
+<p>Trên máy 4 màu, thứ tự phổ biến là <strong>K – C – M – Y</strong>. Mực in trước nên có độ dính (tack) cao hơn mực in sau để lớp mực ướt chồng lên nhau mà không bị "kéo ngược" (trapping kém). Thay đổi thứ tự in mà không đổi mực có thể làm màu chồng bị lệch.</p>
+
+<h2>Mật độ màu (density): đo gì, bao nhiêu là chuẩn?</h2>
+<p>Mật độ màu đo độ dày lớp mực trên nền đặc (solid) bằng máy đo mật độ (densitometer). Giá trị tham khảo cho giấy couche theo thực hành phổ biến:</p>
+<table>
+    <thead><tr><th>Màu</th><th>Mật độ tham khảo (giấy couche)</th></tr></thead>
+    <tbody>
+        <tr><td>Cyan</td><td>1,40 – 1,50</td></tr>
+        <tr><td>Magenta</td><td>1,40 – 1,50</td></tr>
+        <tr><td>Yellow</td><td>1,00 – 1,10</td></tr>
+        <tr><td>Black</td><td>1,70 – 1,90</td></tr>
+    </tbody>
+</table>
+<p>Giấy không tráng phủ (Ford, giấy in sách) có mật độ thấp hơn vì mực thấm vào giấy. Nhiều nhà in hiện đại chuyển sang đo bằng <strong>giá trị L*a*b* (máy đo quang phổ)</strong> theo tiêu chuẩn ISO 12647-2, chính xác hơn đo mật độ.</p>
+
+<h2>Gia tăng tầng thứ (dot gain / TVI)</h2>
+<p>Điểm tram 50% trên file khi in ra giấy thường lớn hơn, ví dụ thành 62–65%. Hiện tượng này gọi là <strong>gia tăng tầng thứ</strong> (Tone Value Increase). Nguyên nhân: mực bị ép loang dưới áp lực in, mực thấm vào giấy, và hiệu ứng quang học ánh sáng tán xạ trong giấy.</p>
+<ul>
+    <li>Giấy couche: TVI tại 50% thường khoảng 12–16%.</li>
+    <li>Giấy không tráng phủ: có thể 18–22% hoặc hơn.</li>
+</ul>
+<p>Dot gain không phải là lỗi nếu <strong>ổn định và được bù trừ</strong> đúng bằng đường cong trên CTP. Dot gain thay đổi thất thường mới là vấn đề (xem <a href="loi-in-offset-thuong-gap.html">lỗi in offset thường gặp</a>).</p>
+
+<h2>Cân bằng xám (gray balance)</h2>
+<p>Khi in chồng C, M, Y theo một tỷ lệ nhất định (ví dụ C50–M40–Y40), kết quả phải ra màu xám trung tính. Nếu xám bị ngả đỏ, xanh hay vàng, toàn bộ hình ảnh sẽ bị ám màu, đặc biệt là màu da người. Kiểm soát cân bằng xám là cách hiệu quả nhất để hình ảnh in trông "đúng", theo phương pháp như G7.</p>
+
+<h2>Tổng lượng mực (TAC) và màu đen phong phú</h2>
+<ul>
+    <li><strong>TAC</strong> (Total Area Coverage) là tổng % của 4 màu tại một điểm. Giấy couche thường giới hạn 300–340%, giấy không tráng phủ 260–300%. TAC quá cao gây dính lưng, khô chậm.</li>
+    <li><strong>Chữ đen nhỏ</strong>: chỉ dùng 100% K để tránh lệch màu.</li>
+    <li><strong>Nền đen lớn</strong>: có thể dùng "đen giàu" (rich black) như C40–M30–Y30–K100 để đen sâu hơn, nhưng vẫn trong giới hạn TAC.</li>
+</ul>
+
+<h2>Checklist in đúng màu</h2>
+<ol>
+    <li>File thiết kế ở CMYK với profile đúng loại giấy (ví dụ profile cho giấy couche).</li>
+    <li>Có bản in thử (proof) được hiệu chuẩn cho khách duyệt màu.</li>
+    <li>CTP dùng đường cong bù trừ theo máy và giấy thực tế.</li>
+    <li>Mực, dung dịch máng, cao su ổn định; đo mật độ hoặc L*a*b* trên thang màu.</li>
+    <li>Xem màu dưới nguồn sáng chuẩn D50, không xem dưới đèn huỳnh quang xưởng.</li>
+</ol>
+
+<h2>Câu hỏi thường gặp</h2>
+<section class="faq">
+    <h3>Vì sao cùng một file nhưng mỗi nhà in ra màu khác nhau?</h3>
+    <p>Do khác nhau về máy, giấy, mực, đường cong bù trừ và cách đo màu. Nhà in theo chuẩn ISO 12647-2 hoặc G7 sẽ cho kết quả gần nhau hơn.</p>
+    <h3>Mực tốt có giúp in đúng màu hơn không?</h3>
+    <p>Mực có nồng độ màu cao, sắc độ đúng chuẩn và ổn định giữa các lô giúp đạt màu mục tiêu dễ hơn, với lớp mực mỏng hơn. Nhưng mực chỉ là một phần của hệ thống quản lý màu.</p>
+</section>

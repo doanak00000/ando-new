@@ -80,5 +80,5 @@ AddDefaultCharset UTF-8
 
 # Prevent image hotlinking (optional)
 # RewriteCond %{HTTP_REFERER} !^$
-# RewriteCond %{HTTP_REFERER} !^https?://(www\.)?ando\.com\.vn [NC]
+# RewriteCond %{HTTP_REFERER} !^https?://(www\.)?vattuinando.vn [NC]
 # RewriteRule \.(jpg|jpeg|png|gif)$ - [F]

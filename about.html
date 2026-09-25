@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="utf-8">
     <title>Giới Thiệu An Đô - Chuyên Gia Vật Tư In Ấn TP.HCM | About An Do Printing</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Tìm hiểu về An Đô - công ty chuyên cung cấp vật tư in ấn hàng đầu TP.HCM với hơn 10 năm kinh nghiệm. Đội ngũ chuyên nghiệp, sản phẩm chất lượng cao, dịch vụ tận tâm.">
+    <meta property="og:image" content="https://vattuinando.vn/img/carousel-1.jpg">
+    <meta property="og:site_name" content="Vật Tư In An Đô">
+    <meta property="og:locale" content="vi_VN">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1e5aa8">
+    <link rel="alternate" type="application/rss+xml" title="Kiến thức ngành in - An Đô" href="blog/feed.xml">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://vattuinando.vn/"}, {"@type": "ListItem", "position": 2, "name": "Giới thiệu", "item": "https://vattuinando.vn/about.html"}]}</script>
+    <meta name="description" content="Tìm hiểu về An Đô - công ty chuyên cung cấp vật tư in ấn hàng đầu TP.HCM từ năm 2018. Đội ngũ chuyên nghiệp, sản phẩm chất lượng cao, dịch vụ tận tâm.">
     <meta name="keywords" content="giới thiệu An Đô, về chúng tôi, công ty vật tư in ấn, kinh nghiệm in ấn, đội ngũ chuyên nghiệp, about us, printing company">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://ando.com.vn/about.html">
+    <link rel="canonical" href="https://vattuinando.vn/about.html">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Giới Thiệu An Đô - Chuyên Gia Vật Tư In Ấn TP.HCM">
-    <meta property="og:description" content="Tìm hiểu về An Đô - công ty chuyên cung cấp vật tư in ấn hàng đầu TP.HCM với hơn 10 năm kinh nghiệm.">
+    <meta property="og:description" content="Tìm hiểu về An Đô - công ty chuyên cung cấp vật tư in ấn hàng đầu TP.HCM từ năm 2018.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ando.com.vn/about.html">
+    <meta property="og:url" content="https://vattuinando.vn/about.html">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -51,7 +61,7 @@
             box-shadow: none;
         }
 
-        .navbar-brand h1 {
+        .navbar-brand .brand-name {
             color: var(--primary-color) !important;
         }
 
@@ -146,7 +156,7 @@
                 flex-wrap: nowrap;
             }
 
-            .navbar-brand h1 {
+            .navbar-brand .brand-name {
                 font-size: 1.5rem;
                 margin-right: 0.5rem;
             }
@@ -174,7 +184,7 @@
             <div class="d-flex align-items-center">
                 <a href="index.html" class="navbar-brand px-lg-4 m-0 d-flex align-items-center">
                     <img src="img/logo.png" alt="An Đô Logo" class="me-3" style="height: 50px;">
-                    <h1 class="m-0 display-4 text-uppercase" style="color: var(--primary-color);">An Đô</h1>
+                    <span class="brand-name m-0 display-4 text-uppercase" style="color: var(--primary-color);">An Đô</span>
                 </a>
                 <!-- Language Toggle Button beside An Đô title -->
                 <button type="button" class="btn btn-outline-light ml-3" id="languageToggle" style="padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.9rem;">
@@ -187,11 +197,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link" data-translate="home">Home</a>
-                    <a href="about.html" class="nav-item nav-link active" data-translate="about">About</a>
-                    <a href="service.html" class="nav-item nav-link" data-translate="service">Services</a>
-                    <a href="menu.html" class="nav-item nav-link" data-translate="menu">Products</a>
-                    <a href="contact.html" class="nav-item nav-link" data-translate="contact">Contact</a>
+                    <a href="index.html" class="nav-item nav-link" data-translate="home">Trang Chủ</a>
+                    <a href="about.html" class="nav-item nav-link active" data-translate="about">Giới Thiệu</a>
+                    <a href="service.html" class="nav-item nav-link" data-translate="service">Dịch Vụ</a>
+                    <a href="menu.html" class="nav-item nav-link" data-translate="menu">Sản Phẩm</a>
+                    <a href="blog/" class="nav-item nav-link" data-translate="blog">Kiến Thức</a>
+                    <a href="contact.html" class="nav-item nav-link" data-translate="contact">Liên Hệ</a>
                 </div>
             </div>
         </nav>
@@ -202,11 +213,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase" data-translate="aboutTitle">About Us</h1>
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase" data-translate="aboutTitle">Giới Thiệu An Đô</h1>
             <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="index.html" data-translate="home">Home</a></p>
+                <p class="m-0 text-white"><a class="text-white" href="index.html" data-translate="home">Trang Chủ</a></p>
                 <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white" data-translate="about">About Us</p>
+                <p class="m-0 text-white" data-translate="about">Giới Thiệu</p>
             </div>
         </div>
     </div>
@@ -217,28 +228,28 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-translate="aboutTitle">About Us</h4>
-                <h1 class="display-4" data-translate="aboutHeading">Trusted Partner Since 2018</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" data-translate="aboutTitle">Giới Thiệu An Đô</h4>
+                <h2 class="display-4" data-translate="aboutHeading">Đối Tác Tin Cậy Từ Năm 2018</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3" data-translate="ourStory">Our Story</h1>
-                    <h5 class="mb-3" data-translate="ourStorySubtitle">Leading provider of comprehensive printing industry solutions with decades of experience</h5>
-                    <p data-translate="ourStoryText">An Đô has been serving the printing industry for over 7 years, providing high-quality supplies and solutions. We specialize in printing inks, zinc plates, plate processing, rubber materials, and various printing chemicals. Our commitment to quality and customer satisfaction has made us a trusted partner for printing businesses across the region.</p>
-                    <a href="contact.html" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2" data-translate="learnMore">Learn More</a>
+                    <h2 class="h1 mb-3" data-translate="ourStory">Câu Chuyện Của Chúng Tôi</h2>
+                    <h5 class="mb-3" data-translate="ourStorySubtitle">Nhà cung cấp giải pháp vật tư toàn diện cho ngành in offset tại TP.HCM từ năm 2018</h5>
+                    <p data-translate="ourStoryText">An Đô đã phục vụ ngành in ấn hơn 7 năm, cung cấp vật tư và giải pháp chất lượng cao. Chúng tôi chuyên về mực in, bản kẽm, gia công bản kẽm, vật liệu cao su và các hóa chất in ấn. Cam kết về chất lượng và sự hài lòng của khách hàng đã giúp chúng tôi trở thành đối tác tin cậy của các doanh nghiệp in ấn trong khu vực.</p>
+                    <a href="contact.html" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2" data-translate="learnMore">Tìm Hiểu Thêm</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
+                        <img loading="lazy" decoding="async" alt="Đội ngũ An Đô tư vấn vật tư ngành in" class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3" data-translate="ourVision">Our Vision</h1>
-                    <p data-translate="ourVisionText">To be the leading supplier of printing industry materials, providing innovative solutions that help our customers achieve excellence in their printing operations. We strive to maintain the highest quality standards while offering competitive prices and exceptional service.</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem1">Professional printing solutions</span></h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem2">Quality guaranteed products</span></h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem3">Expert technical support</span></h5>
-                    <a href="contact.html" class="btn btn-primary font-weight-bold py-2 px-4 mt-2" data-translate="learnMore">Learn More</a>
+                    <h2 class="h1 mb-3" data-translate="ourVision">Tầm Nhìn Của Chúng Tôi</h2>
+                    <p data-translate="ourVisionText">Trở thành nhà cung cấp hàng đầu vật liệu ngành in, cung cấp các giải pháp sáng tạo giúp khách hàng đạt được sự xuất sắc trong hoạt động in ấn. Chúng tôi nỗ lực duy trì tiêu chuẩn chất lượng cao nhất đồng thời cung cấp giá cả cạnh tranh và dịch vụ đặc biệt.</p>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem1">Giải pháp in ấn chuyên nghiệp</span></h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem2">Sản phẩm đảm bảo chất lượng</span></h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i><span data-translate="checkItem3">Hỗ trợ kỹ thuật chuyên môn</span></h5>
+                    <a href="contact.html" class="btn btn-primary font-weight-bold py-2 px-4 mt-2" data-translate="learnMore">Tìm Hiểu Thêm</a>
                 </div>
             </div>
         </div>
@@ -250,35 +261,37 @@
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="getInTouch">Get In Touch</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="getInTouch">Liên Hệ Với Chúng Tôi</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>56/24 Tô Hiệu, Tân Thới Hòa, Tân Phú, Hồ Chí Minh</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>0979 324 567</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>doanak000@gmail.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i><a class="text-white" href="tel:+84979324567">0979 324 567</a></p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i><a class="text-white" href="mailto:prepress.ando@gmail.com">prepress.ando@gmail.com</a></p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="followUs">Follow Us</h4>
-                <p data-translate="followDescription">Stay updated with our latest products and industry news</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="followUs">Theo Dõi Chúng Tôi</h4>
+                <p data-translate="followDescription">Cập nhật thông tin sản phẩm mới và tin tức ngành in ấn</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fas fa-shopping-bag"></i></a>
                 </div>
+                <h5 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 2px;">Kiến thức ngành in</h5>
+                <ul class="list-unstyled small m-0"><li class="mb-1"><a class="text-white" href="blog/muc-in-offset-la-gi.html">Mực in offset là gì? Cách chọn mực</a></li><li class="mb-1"><a class="text-white" href="blog/ban-kem-ctp-la-gi.html">Bản kẽm CTP: kích thước & bảng giá</a></li><li class="mb-1"><a class="text-white" href="blog/loi-in-offset-thuong-gap.html">15 lỗi in offset & cách khắc phục</a></li><li class="mb-1"><a class="text-white" href="blog/dung-dich-mang-in-offset.html">Dung dịch máng: pH, độ dẫn điện</a></li></ul>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="openHours">Business Hours</h4>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;" data-translate="openHours">Giờ Làm Việc</h4>
                 <div>
-                    <h6 class="text-white text-uppercase" data-translate="mondayFriday">Monday - Friday</h6>
+                    <h6 class="text-white text-uppercase" data-translate="mondayFriday">Thứ Hai - Thứ Sáu</h6>
                     <p>8.00 AM - 5.00 PM</p>
-                    <h6 class="text-white text-uppercase" data-translate="saturdaySunday">Saturday - Sunday</h6>
+                    <h6 class="text-white text-uppercase" data-translate="saturdaySunday">Thứ Bảy - Chủ Nhật</h6>
                     <p>8.00 AM - 12.00 PM</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5 text-center">
-                <img src="img/logo.png" alt="An Đô Logo" style="height: 250px; width: auto;">
+                <img loading="lazy" decoding="async" src="img/logo.png" alt="An Đô Logo" style="height: 250px; width: auto;">
             </div>
         </div>
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white"><span data-translate="copyright">Copyright</span> &copy; <a class="font-weight-bold" href="#">An Đô</a>. <span data-translate="allRightsReserved">All Rights Reserved</span>.</p>
-            <p class="m-0 text-white"><span data-translate="designedBy">Designed by</span> <a class="font-weight-bold" href="#">An Đô</a> <span data-translate="distributedBy">Distributed by</span> <a href="#" target="_blank">An Đô</a></p>
+            <p class="mb-2 text-white"><span data-translate="copyright">Bản Quyền</span> &copy; 2018-2026 <a class="font-weight-bold" href="index.html">An Đô</a>. <span data-translate="allRightsReserved">Tất Cả Quyền Được Bảo Lưu</span>.</p>
+            <p class="m-0 text-white"><span data-translate="designedBy">Thiết Kế Bởi</span> <a class="font-weight-bold" href="index.html">An Đô</a> <span data-translate="distributedBy">Phân Phối Bởi</span> <a href="index.html">An Đô</a></p>
         </div>
     </div>
     <!-- Footer End -->

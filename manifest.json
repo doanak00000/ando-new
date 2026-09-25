@@ -1,12 +1,11 @@
 {
-    "name": "An Đô Printing Supplies - Vật Tư In Ấn TP.HCM",
+    "name": "An Đô - Vật Tư Ngành In TP.HCM",
     "short_name": "An Đô",
-    "description": "Nhà cung cấp vật tư in ấn hàng đầu TP.HCM - Mực in, bản kẽm, hóa chất chất lượng cao",
+    "description": "Công ty vật tư ngành in tại TP.HCM: mực in offset, bản kẽm CTP, cao su offset, hóa chất in",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#8B4513",
-    "orientation": "portrait-primary",
+    "theme_color": "#1e5aa8",
     "scope": "/",
     "lang": "vi",
     "dir": "ltr",
@@ -25,28 +24,18 @@
             "src": "img/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
         },
         {
             "src": "img/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
         }
     ],
-    "categories": ["business", "productivity", "shopping"],
-    "screenshots": [
-        {
-            "src": "img/screenshot-desktop.png",
-            "sizes": "1280x720",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "img/screenshot-mobile.png",
-            "sizes": "375x667",
-            "type": "image/png",
-            "form_factor": "narrow"
-        }
+    "categories": [
+        "business",
+        "productivity",
+        "shopping"
     ]
 }

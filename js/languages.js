@@ -10,6 +10,7 @@ const translations = {
         reservation: "Quote Request",
         testimonial: "Testimonial",
         contact: "Contact",
+        blog: "Blog",
 
         // Hero Section
         heroSubtitle: "Printing Supplies Company",
@@ -283,6 +284,7 @@ const translations = {
         reservation: "Yêu Cầu Báo Giá",
         testimonial: "Đánh Giá",
         contact: "Liên Hệ",
+        blog: "Kiến Thức",
 
         // Hero Section
         heroSubtitle: "Công ty vật tư ngành in",
@@ -290,10 +292,10 @@ const translations = {
         heroYear: "* Chuyên cung cấp giải pháp vật tư cho lĩnh vực in ấn *",
 
         // About Section
-        aboutTitle: "Giới Thiệu",
+        aboutTitle: "Giới Thiệu An Đô",
         aboutHeading: "Đối Tác Tin Cậy Từ Năm 2018",
         ourStory: "Câu Chuyện Của Chúng Tôi",
-        ourStorySubtitle: "Nhà cung cấp hàng đầu các giải pháp toàn diện cho ngành in ấn với nhiều thập kỷ kinh nghiệm",
+        ourStorySubtitle: "Nhà cung cấp giải pháp vật tư toàn diện cho ngành in offset tại TP.HCM từ năm 2018",
         ourStoryText: "An Đô đã phục vụ ngành in ấn hơn 7 năm, cung cấp vật tư và giải pháp chất lượng cao. Chúng tôi chuyên về mực in, bản kẽm, gia công bản kẽm, vật liệu cao su và các hóa chất in ấn. Cam kết về chất lượng và sự hài lòng của khách hàng đã giúp chúng tôi trở thành đối tác tin cậy của các doanh nghiệp in ấn trong khu vực.",
         ourVision: "Tầm Nhìn Của Chúng Tôi",
         ourVisionText: "Trở thành nhà cung cấp hàng đầu vật liệu ngành in, cung cấp các giải pháp sáng tạo giúp khách hàng đạt được sự xuất sắc trong hoạt động in ấn. Chúng tôi nỗ lực duy trì tiêu chuẩn chất lượng cao nhất đồng thời cung cấp giá cả cạnh tranh và dịch vụ đặc biệt.",
@@ -398,7 +400,7 @@ const translations = {
 
         // Additional page-specific translations
         // Service Page
-        servicePageTitle: "Dịch Vụ Của Chúng Tôi",
+        servicePageTitle: "Dịch Vụ Vật Tư Ngành In",
         servicePageSubtitle: "Giải Pháp In Ấn Chuyên Nghiệp",
         serviceDetail1: "Cung Cấp Mực In Cao Cấp",
         serviceDetail2: "Sản Xuất Bản Kẽm",
@@ -410,7 +412,7 @@ const translations = {
         serviceDesc4: "Dịch vụ tư vấn kỹ thuật chuyên môn và hỗ trợ khắc phục sự cố. Đội ngũ giàu kinh nghiệm của chúng tôi giúp tối ưu hóa quy trình in và giải quyết các thách thức kỹ thuật.",
 
         // Contact Page
-        contactPageTitle: "Liên Hệ Với Chúng Tôi",
+        contactPageTitle: "Liên Hệ An Đô",
         contactForm: "Biểu Mẫu Liên Hệ",
         yourName: "Tên Của Bạn",
         yourEmail: "Email Của Bạn",
@@ -437,7 +439,7 @@ const translations = {
         distributedBy: "Phân Phối Bởi",
 
         // Menu/Products Page
-        productsPageTitle: "Sản Phẩm Của Chúng Tôi",
+        productsPageTitle: "Sản Phẩm & Bảng Giá Vật Tư In",
         productsPageSubtitle: "Vật Tư In Ấn Chất Lượng",
 
         // Testimonial Page
