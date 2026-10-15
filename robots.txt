@@ -2,5 +2,22 @@ User-agent: *
 Allow: /
 Disallow: /mail/
 Disallow: /scss/
+Disallow: /blog_src/
+
+# AI crawlers - allow full access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://vattuinando.vn/sitemap.xml
