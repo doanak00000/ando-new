@@ -287,7 +287,7 @@ const translations = {
         blog: "Kiến Thức",
 
         // Hero Section
-        heroSubtitle: "Công ty vật tư ngành in",
+        heroSubtitle: "Nhà cung cấp vật tư in ấn tại TP.HCM - Sài Gòn",
         heroTitle: "AN ĐÔ",
         heroYear: "* Chuyên cung cấp giải pháp vật tư cho lĩnh vực in ấn *",
 
